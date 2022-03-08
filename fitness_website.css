@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:sans-serif;
+}
+header li{
+    display: inline;
+    padding-left:20px;
+
+}
+.icons {
+    background-color:rgb(190, 199, 191);
+}
+
+header{
+    font-family:arial;
+    background-color:rgb(113, 178, 204);
+}
+header h1{
+    background-color:rgb(34, 156, 61) ;
+}
+
+.enroll{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+button{
+    padding:30px 50px;
+    border:none;
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:16px;
+    color:purple;
+    border-radius:50px;
+    cursor:pointer;
+    animation:animate 2s linear infinite;
+
+}
+@keyframes animate{
+    0%{
+        background-color:rgb(50, 42, 165);
+    }
+    20%{
+        background-color:rgb(165, 42, 144);
+    }
+    30%{
+        background-color:rgb(118, 165, 42);
+    }
+    40%{
+        background-color:rgb(42, 110, 165);
+    }
+
+}
+.table{
+    background-color:rgb(112, 102, 80);
+}
+#table{
+    background-color:rgb(228, 76, 26) ;
+}
+
+.middle_image button{
+    background-color:rgb(12, 100, 145);
+}
+#middle_image button{
+    background-color:rgb(228, 76, 26) ;
+}
+
+.container{
+    max-width:1170px;
+    background-color:rgb(86, 99, 67);
+    margin:auto;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style:none;
+}
+.footer{
+    background-color:rgb(66, 50, 66);
+
+}
+.footer-col{
+    width:25%;
+    padding:0 15%;
+}
